@@ -1,0 +1,16 @@
+PODS:
+  - IBentifiers (0.1.0)
+
+DEPENDENCIES:
+  - IBentifiers (from `../`)
+
+EXTERNAL SOURCES:
+  IBentifiers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IBentifiers: a837c48b30865d4914e9d44a88c0e4ddc466d4fa
+
+PODFILE CHECKSUM: 34d65ff0c7817816aad9554fc5d2c852d4c9b6a3
+
+COCOAPODS: 1.0.0
