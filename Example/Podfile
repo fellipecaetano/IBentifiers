@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IBentifiers_Example' do
+  pod 'IBentifiers', :path => '../'
+
+  target 'IBentifiers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
