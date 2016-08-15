@@ -130,8 +130,8 @@
 		607FACE91AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B395D8AF1D627B9400889AEB /* Test.storyboard */,
 				607FACEA1AFB9204008FA782 /* Info.plist */,
+				B395D8AF1D627B9400889AEB /* Test.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
