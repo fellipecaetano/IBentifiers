@@ -1,8 +1,10 @@
 PODS:
   - IBentifiers (0.1.0)
+  - Nimble (4.1.0)
 
 DEPENDENCIES:
   - IBentifiers (from `../`)
+  - Nimble (~> 4.1)
 
 EXTERNAL SOURCES:
   IBentifiers:
@@ -10,7 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IBentifiers: a837c48b30865d4914e9d44a88c0e4ddc466d4fa
+  Nimble: 97a0a4cae5124c117115634b2d055d8c97d0af19
 
-PODFILE CHECKSUM: 34d65ff0c7817816aad9554fc5d2c852d4c9b6a3
+PODFILE CHECKSUM: f2124388764b4e316a6f66ddb330c8a2e9cafa28
 
 COCOAPODS: 1.0.1
