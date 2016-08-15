@@ -1,6 +1,6 @@
 # IBentifiers
 
-[![CI Status](http://img.shields.io/travis/Fellipe Caetano/IBentifiers.svg?style=flat)](https://travis-ci.org/Fellipe Caetano/IBentifiers)
+[![CI Status](http://img.shields.io/travis/fellipecaetano/IBentifiers.svg?style=flat)](https://travis-ci.org/fellipecaetano/IBentifiers)
 [![Version](https://img.shields.io/cocoapods/v/IBentifiers.svg?style=flat)](http://cocoapods.org/pods/IBentifiers)
 [![License](https://img.shields.io/cocoapods/l/IBentifiers.svg?style=flat)](http://cocoapods.org/pods/IBentifiers)
 [![Platform](https://img.shields.io/cocoapods/p/IBentifiers.svg?style=flat)](http://cocoapods.org/pods/IBentifiers)
@@ -22,7 +22,7 @@ pod "IBentifiers"
 
 ## Author
 
-Fellipe Caetano, fellipe.caetano@movile.com
+Fellipe Caetano, fellipe.caetano4@gmail.com
 
 ## License
 
