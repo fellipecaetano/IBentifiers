@@ -169,6 +169,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				B3B7B50D1D6278DD00A2E4CD /* Run SwiftLint */,
 				885470268128DBC5CD400143 /* 📦 Embed Pods Frameworks */,
 				3E3E9D77138D4FEED70DA9C2 /* 📦 Copy Pods Resources */,
 			);
@@ -351,6 +352,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBentifiers_Tests/Pods-IBentifiers_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B3B7B50D1D6278DD00A2E4CD /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    cd ..\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -493,7 +508,7 @@
 				INFOPLIST_FILE = "Example for IBentifiers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fellipecaetano.IBentifiers-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -506,7 +521,7 @@
 				INFOPLIST_FILE = "Example for IBentifiers/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fellipecaetano.IBentifiers-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
