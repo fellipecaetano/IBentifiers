@@ -24,7 +24,7 @@ public extension NibLoadable {
             fatalError("The .nib named \(name) is empty")
         }
         guard let typedObject = fromNib as? Self else {
-            fatalError("Expected first object of .nib named \(name) to be of type \(self) but actual type is \(fromNib.self)")
+            fatalError("Expected the first object of .nib named \(name) to be of type \(self) but actual type is \(fromNib.self)")
         }
         return typedObject
     }
