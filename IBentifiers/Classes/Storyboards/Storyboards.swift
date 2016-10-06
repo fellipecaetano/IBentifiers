@@ -3,11 +3,11 @@ import UIKit
 
 public protocol StoryboardConvertible {
     var name: String { get }
-    var bundle: NSBundle? { get }
+    var bundle: Bundle? { get }
 }
 
 public extension StoryboardConvertible {
-    var bundle: NSBundle? {
+    var bundle: Bundle? {
         return nil
     }
 }
@@ -19,20 +19,20 @@ public extension StoryboardConvertible where Self: RawRepresentable, Self.RawVal
 }
 
 extension StoryboardConvertible {
-    public func instantiateViewController <V: UIViewController where V: Identifiable, V.Identifier == String> () -> V {
+    public func instantiateViewController <V: UIViewController> () -> V where V: Identifiable, V.Identifier == String {
         return storyboard.instantiateViewController()
     }
 
-    private var storyboard: UIStoryboard {
+    fileprivate var storyboard: UIStoryboard {
         return UIStoryboard(name: name, bundle: bundle)
     }
 }
 
 private extension UIStoryboard {
-    func instantiateViewController <V: UIViewController where V: Identifiable, V.Identifier == String> () -> V {
-        let viewController = instantiateViewControllerWithIdentifier(V.identifier)
+    func instantiateViewController <V: UIViewController> () -> V where V: Identifiable, V.Identifier == String {
+        let viewController = self.instantiateViewController(withIdentifier: V.identifier)
         guard let typedViewController = viewController as? V else {
-            fatalError("Expected view controller of type \(V.self) but got \(viewController.dynamicType)")
+            fatalError("Expected view controller of type \(V.self) but got \(type(of: viewController))")
         }
         return typedViewController
     }

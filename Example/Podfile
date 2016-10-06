@@ -5,6 +5,6 @@ target 'IBentifiers_Example' do
 
   target 'IBentifiers_Tests' do
     pod 'IBentifiers', :path => '../'
-    pod 'Nimble', '~> 4.1'
+    pod 'Nimble', '~> 5.0'
   end
 end

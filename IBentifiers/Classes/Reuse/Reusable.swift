@@ -6,6 +6,6 @@ public protocol Reusable {
 
 public extension Reusable {
     static var reuseIdentifier: String {
-        return String(Self)
+        return String(describing: self)
     }
 }
