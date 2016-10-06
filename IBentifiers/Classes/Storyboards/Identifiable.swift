@@ -7,6 +7,6 @@ public protocol Identifiable {
 
 public extension Identifiable where Self.Identifier == String {
     static var identifier: String {
-        return String(self)
+        return String(describing: self)
     }
 }

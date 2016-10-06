@@ -9,6 +9,6 @@ IBentifiers provide swifty shortcuts and extensions that ease handling of identi
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fellipe Caetano' => 'fellipe.caetano4@gmail.com' }
   s.source           = { :git => 'https://github.com/fellipecaetano/IBentifiers.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'IBentifiers/Classes/**/*'
 end
