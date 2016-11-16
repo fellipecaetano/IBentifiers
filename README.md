@@ -58,7 +58,7 @@ $ brew install carthage
 To integrate IBentifiers into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "fellipecaetano/IBentifiers" ~> 1.0
+github "fellipecaetano/IBentifiers"
 ```
 
 Run `carthage update` to build the framework and drag the built `IBentifiers.framework` into your Xcode project.
