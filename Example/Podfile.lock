@@ -1,5 +1,5 @@
 PODS:
-  - IBentifiers (0.2.2)
+  - IBentifiers (1.0.0)
   - Nimble (5.0.0)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IBentifiers: 56813ac7df38f475212bf2f2008c0f074c03ff75
+  IBentifiers: 6bf75e0a4ff97694a35fa4d94108482ce1a2d8a2
   Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
 
 PODFILE CHECKSUM: 6c3ab881e557710f7e6be07d68d4f69c35faa467
