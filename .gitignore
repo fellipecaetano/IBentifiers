@@ -23,7 +23,8 @@ DerivedData
 .bundle
 
 # Dependency management
-Carthage
+Carthage/*
+!Carthage/Checkouts
 /**/Pods/*
 !/**/Pods/Pods.xcodeproj
 /**/Pods/Pods.xcodeproj/*
