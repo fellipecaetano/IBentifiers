@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'IBentifiers'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Handle your identifiable IB elements swiftly.'
   s.description      = <<-DESC
 IBentifiers provide swifty shortcuts and extensions that ease handling of identifiable IB elements such as storyboards and NIBs.
