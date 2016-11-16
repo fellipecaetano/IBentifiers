@@ -24,7 +24,10 @@ DerivedData
 
 # Dependency management
 Carthage
-Pods/
+/**/Pods/*
+!/**/Pods/Pods.xcodeproj
+/**/Pods/Pods.xcodeproj/*
+!/**/Pods/Pods.xcodeproj/xcshareddata
 
 # Emacs
 *~
