@@ -11,14 +11,14 @@ Inside the `Example` directory you will find a project holding the tests for IBe
 
 1. Clone the repository
 2. Enter the `Example` directory
-3. Open the `IBentifiers.xcworkspace` file in Xcode 7.3
+3. Open the `IBentifiers.xcworkspace` file in Xcode 8.0
 4. Select the `IBentifiers-Example` target in the target selection dropdown near the `Stop` button
 5. Press `⌘U` or click `Test` from the `Product` menu
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 7.3+
+- iOS 9.0+
+- Xcode 8.0+
 
 ## Installation
 
